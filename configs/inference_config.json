@@ -1,0 +1,23 @@
+{
+    "target_start_pos": 0,
+    "MLLM_path": "",
+    "base_model_path": "",
+    "LLM_backbone": "Qwen",
+    "device": 0,
+    "output_dir": "./output",
+    "data_path": "./data/sample_data",
+    "Instruct": "<|im_start|>system\nYou are a helpful assistant.<|im_end|>\n",
+    "user_Instruct": "<|im_start|>user\n",
+    "assistant_Instruct": "<|im_start|>assistant\n",
+    "seg_think_Instruct": "[SEG THINK]\nFocus: ",
+    "q_think_Instruct": "\n\n[Q THINK]\nReasoning: ",
+    "end_Instruct": "<|im_end|>\n",
+    "vision_start_id": 151652,
+    "vision_end_id": 151653,
+    "video_pad_id": 151656,
+    "EOQ_id": 151669,
+    "EOT_id": 151670,
+    "EOQ": "<EOQ>",
+    "EOT": "<EOT>",
+    "max_new_tokens": 512
+}

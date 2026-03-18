@@ -1,0 +1,74 @@
+{
+  "video": "/path/to/sample_video.mp4",
+  "conversations": [
+    {
+      "from": "human",
+      "timestamps": 5.0,
+      "value": "<video>\nWhat is happening in the video at this moment?\nA. A person is cooking\nB. A person is reading\nC. A person is walking\nD. A person is sleeping"
+    },
+    {
+      "from": "gpt",
+      "value": "The person appears to be moving on foot.\nAnswer: C"
+    },
+    {
+      "from": "human",
+      "timestamps": 10.0,
+      "value": "What does the person do next?\nA. Sits down\nB. Starts running\nC. Picks up an object\nD. Turns around"
+    },
+    {
+      "from": "gpt",
+      "value": "The person bends down and grabs something.\nAnswer: C"
+    }
+  ],
+  "metadata": {
+    "dataset": "sample",
+    "timestamps": [5.0, 10.0],
+    "original_resolution": [1280, 720],
+    "normalized_resolution": [518, 291],
+    "video_duration": 15.0,
+    "video_fps": 30.0,
+    "sample_fps": 1.0,
+    "num_frames": 10,
+    "frame_files": [
+      "frame_0001.jpg",
+      "frame_0002.jpg",
+      "frame_0003.jpg",
+      "frame_0004.jpg",
+      "frame_0005.jpg",
+      "frame_0006.jpg",
+      "frame_0007.jpg",
+      "frame_0008.jpg",
+      "frame_0009.jpg",
+      "frame_0010.jpg"
+    ],
+    "sample_timestamps": [1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0],
+    "segment_info": [
+      {
+        "start": 0.0,
+        "end": 5.0,
+        "num_frames": 5
+      },
+      {
+        "start": 5.0,
+        "end": 10.0,
+        "num_frames": 5
+      }
+    ],
+    "is_image_sequence": false,
+    "frames_path": "raw_picture/0/",
+    "index": 0,
+    "original_questions": [
+      {
+        "question": "What is happening in the video at this moment?",
+        "options": ["A. A person is cooking", "B. A person is reading", "C. A person is walking", "D. A person is sleeping"],
+        "answer": "C"
+      },
+      {
+        "question": "What does the person do next?",
+        "options": ["A. Sits down", "B. Starts running", "C. Picks up an object", "D. Turns around"],
+        "answer": "C"
+      }
+    ]
+  }
+}
+
