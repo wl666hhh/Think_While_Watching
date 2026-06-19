@@ -1,4 +1,4 @@
-# Think While Watching: Online Streaming Segment-Level Memory for Multi-Turn Video Reasoning in Multimodal Large Language Models
+# [ECCV 2026] Think While Watching: Online Streaming Segment-Level Memory for Multi-Turn Video Reasoning in Multimodal Large Language Models
 
 [![arXiv](https://img.shields.io/badge/arXiv-2603.11896-b31b1b.svg)](https://arxiv.org/abs/2603.11896)
 [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Paper-yellow)](https://huggingface.co/papers/2603.11896)
