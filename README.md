@@ -6,7 +6,7 @@
 
 This repository provides the **code** for *Think While Watching*, a memory-anchored streaming video reasoning framework that preserves continuous segment-level memory during multi-turn interaction. The model reads video segments and questions incrementally and generates thoughts and answers on-the-fly, enabling real-time online video understanding.
 
-
+> **Note:** This repository currently provides the inference code. The training code and related scripts will be released in a future update.
 ## Project Structure
 
 ```
